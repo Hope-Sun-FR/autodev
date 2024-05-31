@@ -1,5 +1,2 @@
-Jenkins job triggered with
+Jenkins job triggered with new Jenkinsfile
 
-triggers {
-    githubPush()
-  }
