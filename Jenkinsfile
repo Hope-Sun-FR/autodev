@@ -3,7 +3,9 @@
 pipeline {
 
   agent any
-
+  triggers {
+    githubPush()
+  }
   environment {
     git_commit_message = ''
     git_commit_diff = ''
