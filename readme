@@ -1,1 +1,5 @@
-Jenkins job
+Jenkins job triggered with
+
+triggers {
+    githubPush()
+  }
