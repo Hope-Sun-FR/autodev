@@ -31,6 +31,7 @@ pipeline {
   post {
     success {
       sh "echo 'Send mail on success'"
+      sh "echo 'Send mail on success' > hopesun.txt"
       // mail to:"me@example.com", subject:"SUCCESS: ${currentBuild.fullDisplayName}", body: "Yay, we passed."
     }
     failure {
